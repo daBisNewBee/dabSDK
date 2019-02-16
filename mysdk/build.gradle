@@ -2,12 +2,10 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.daBisNewBee'
-version='1.0'
+version='1.1'
 
 android {
     compileSdkVersion 27
-
-
 
     defaultConfig {
         minSdkVersion 14

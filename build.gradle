@@ -5,10 +5,10 @@ buildscript {
     repositories {
         google()
         jcenter()
-//        maven { url "https://jitpack.io" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
+        // android library需要，用于jitpack帮助在线编译sdk
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -20,6 +20,8 @@ allprojects {
     repositories {
         google()
         jcenter()
+        // Demo app下载依赖sdk需要
+        maven { url "https://jitpack.io" }
     }
 }
 
